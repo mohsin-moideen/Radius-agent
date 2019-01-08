@@ -127,7 +127,7 @@ public class App
 	/**
 	 * Every property is mapped to a hash.
 	 * The hash is stored in a SortedMap in the increasing order of hash value
-	 * This facilitates retrieval of a list of relevant properties in in O(log N) time.
+	 * This facilitates retrieval of a list of relevant properties in in O(1) time.
 	 * @param property
 	 */
 	private void addPropertyToIndex(Property property) {
